@@ -6,3 +6,13 @@
 .Palette-colors{
     height: 90%;
 }
+
+.slider{
+    width: 340px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.rc-slider-handle{
+    transform: translateY(40px);
+}
