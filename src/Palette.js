@@ -4,6 +4,7 @@ import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
 import './Palette.css';
 import Navbar from './Navbar';
+import PaletteFooter from './PaletteFooter';
 
 class Palette extends Component {
     constructor(props) {
@@ -26,13 +27,11 @@ class Palette extends Component {
         ));
         return (
             <div className="Palette">
-                <Navbar handleChange={this.changeFormat} level={level} changeLevel={this.changeLevel} />
+                <Navbar showAllColors={true} handleChange={this.changeFormat} level={level} changeLevel={this.changeLevel} />
                 <div className="Palette-colors">
                     {colorBoxes}
                 </div>
-                <footer className="Palette-footer">
-                    {paletteName}
-                </footer>
+                <PaletteFooter paletteName={paletteName} />
             </div>
         )
     }
