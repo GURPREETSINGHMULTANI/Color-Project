@@ -129,6 +129,9 @@ class NewPaletteForm extends Component {
         this.props.savePalette(newPalette)
         this.props.history.push('/');
     }
+    removeColor(colorName) {
+        this.setState({ colors: this.state.colors.filter(color => color.name !== colorName) })
+    }
     render() {
         const { open } = this.state;
         const { classes, theme } = this.props;
@@ -161,8 +164,8 @@ class NewPaletteForm extends Component {
                                 name="newPaletteName"
                                 label="Palette Name"
                                 onChange={this.handleChange}
-                                validators={["required","isPaletteNameUnique"]}
-                                errorMessages={['Enter Palette Name','Name already used']} />
+                                validators={["required", "isPaletteNameUnique"]}
+                                errorMessages={['Enter Palette Name', 'Name already used']} />
                             <Button
                                 type="submit"
                                 variant="contained"
@@ -222,7 +225,7 @@ class NewPaletteForm extends Component {
                 >
                     <div className={classes.drawerHeader} />
                     {this.state.colors.map(color => (
-                        <DraggableColorBox color={color.color} name={color.name} />
+                        <DraggableColorBox key={color.name} handleClick={() => this.removeColor(color.name)} color={color.color} name={color.name} />
                     ))}
                 </main>
             </div>
