@@ -17,6 +17,10 @@ export default {
         borderRadius: '5px',
         overflow: 'hidden'
     },
+    emoji: {
+        marginLeft: "0.5rem",
+        fontSize: "1.5rem"
+      },
     title: {
         display: 'flex',
         justifyContent: 'space-between',
