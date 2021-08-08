@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 import { withStyles } from '@material-ui/core/styles';
 import PaletteMetaForm from './PaletteMetaForm';
 import styles from './styles/PaletteFormNavStyles';
+import AddToPhotosIcon from '@material-ui/icons/AddToPhotos';
 
 class PaletteFormNav extends Component {
     constructor(props) {
@@ -58,7 +59,7 @@ class PaletteFormNav extends Component {
                             edge="start"
                             className={clsx(classes.menuButton, open && classes.hide)}
                         >
-                            <MenuIcon />
+                            <AddToPhotosIcon />
                         </IconButton>
                         <Typography variant="h6" noWrap>
                             Create A Palette

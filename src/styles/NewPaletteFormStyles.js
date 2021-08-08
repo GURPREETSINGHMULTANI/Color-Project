@@ -33,7 +33,8 @@ const styles = theme => ({
             duration: theme.transitions.duration.leavingScreen,
         }),
         marginLeft: -drawerWidth,
-        height: 'calc(100vh - 64px)'
+        height: 'calc(100vh - 64px)',
+        padding:'0'
     },
     contentShift: {
         transition: theme.transitions.create('margin', {
