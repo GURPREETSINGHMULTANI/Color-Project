@@ -17,6 +17,9 @@ const styles = theme => ({
     root: {
         display: 'flex'
     },
+    hide: {
+        display: 'none',
+    },
     appBar: {
         transition: theme.transitions.create(['margin', 'width'], {
             easing: theme.transitions.easing.sharp,
@@ -24,6 +27,7 @@ const styles = theme => ({
         }),
         flexDirection: "row",
         justifyContent: 'space-between',
+        alignItems: 'center',
         height: "64px"
     },
     appBarShift: {
