@@ -1,13 +1,14 @@
 export default {
     root: {
         backgroundColor: 'white',
-        border: '1px solid black',
+        border: '0px solid black',
         borderRadius: '5px',
         padding: '0.5rem',
         position: 'relative',
         overflow: 'hidden',
-        "&:hover": {
-            cursor: 'pointer'
+        cursor: 'pointer',
+        "&:hover > div": {
+            opacity: '1',
         }
     },
     colors: {
@@ -20,7 +21,7 @@ export default {
     emoji: {
         marginLeft: "0.5rem",
         fontSize: "1.5rem"
-      },
+    },
     title: {
         display: 'flex',
         justifyContent: 'space-between',
@@ -38,5 +39,24 @@ export default {
         margin: "0 auto",
         position: "relative",
         verticalAlign: 'bottom'
+    },
+    delete: {
+        color: 'white',
+        backgroundColor: "#eb3d30",
+        width: "20px",
+        height: "20px",
+        position: "absolute",
+        right: "0px",
+        top: "0px",
+        padding: "10px",
+        zIndex: '10',
+        opacity: '0',
+        transition: 'all 0.3s ease-in-out',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    deleteIcon: {
+
     }
 };
