@@ -56,7 +56,4 @@ export default {
         justifyContent: 'center',
         alignItems: 'center'
     },
-    deleteIcon: {
-
-    }
 };
