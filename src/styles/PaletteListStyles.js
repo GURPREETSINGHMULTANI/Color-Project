@@ -41,8 +41,18 @@ export default {
         justifyContent: 'space-between',
         color: 'white',
         alignItems: 'center',
+        "& h1": {
+            lineHeight: 'initial',
+            fontSize: '2rem !important',
+            fontWeight: 'bold !important',
+            letterSpacing: 'initial',
+        },
         "& a": {
             color: 'white',
+            lineHeight: 'initial',
+            fontSize: 'initial',
+            fontWeight: 'initial',
+            letterSpacing: 'initial',
         }
     },
     palettes: {

@@ -29,8 +29,10 @@ export default {
         margin: '0',
         color: 'black',
         paddingTop: '0.5rem',
-        fontSize: '1rem',
-        position: 'relative'
+        fontSize: '1rem !important',
+        position: 'relative',
+        lineHeight: 'initial',
+        letterSpacing: 'initial',
     },
     miniColor: {
         height: "25%",
