@@ -30,7 +30,7 @@ class Navbar extends Component {
         const { level, changeLevel, showAllColors, classes } = this.props;
         const { format } = this.state;
         return (
-            <header className={classes.Navbar}>
+            <header style={{zIndex:'2'}} className={classes.Navbar}>
                 <div className={classes.logo}>
                     <Link to="/">reactcolorpicker</Link>
                 </div>

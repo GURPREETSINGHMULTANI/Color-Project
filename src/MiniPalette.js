@@ -7,18 +7,22 @@ class MiniPalette extends Component {
     constructor(props) {
         super(props);
         this.deletePalette = this.deletePalette.bind(this);
+        this.handleClick = this.handleClick.bind(this);
     }
     deletePalette(e) {
         e.stopPropagation();
         this.props.deletePalette(this.props.id);
     }
+    handleClick() {
+        this.props.handleClick(this.props.id);
+    }
     render() {
-        const { classes, paletteName, colors, handleClick, emoji } = this.props;
+        const { classes, paletteName, colors, handleClick, emoji, id } = this.props;
         const miniColorBoxes = colors.map(color => (
             <div className={classes.miniColor} key={color.name} style={{ backgroundColor: color.color }}></div>
         ))
         return (
-            <div className={classes.root} onClick={handleClick}>
+            <div className={classes.root} onClick={this.handleClick}>
                 <div className={classes.delete}>
                     <DeleteIcon className={classes.DeleteIcon} onClick={this.deletePalette} />
                 </div>

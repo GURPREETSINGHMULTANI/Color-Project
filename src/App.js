@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { generatePalette } from './colorHelpers.js';
@@ -10,7 +10,7 @@ import SingleColorPalette from './SingleColorPalette';
 import Page from './Page';
 import './styles/Page.css'
 
-class App extends Component {
+class App extends PureComponent {
   constructor(props) {
     super(props);
     const savedPalettes = JSON.parse(window.localStorage.getItem("palettes"));
