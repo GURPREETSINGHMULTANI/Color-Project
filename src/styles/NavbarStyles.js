@@ -31,7 +31,7 @@ export default {
         "& .rc-slider-handle, .rc-slider-handle:active, .rc-slider-handle:focus, .rc-slider-handle:hover": {
 
         },
-        [sizes.down('md')]: {
+        [sizes.down('sm')]: {
             width: '150px'
         }
     },
