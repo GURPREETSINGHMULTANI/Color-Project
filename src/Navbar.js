@@ -7,7 +7,6 @@ import MenuItem from '@material-ui/core/MenuItem';
 import { Snackbar } from '@material-ui/core';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
-import Close from '@material-ui/icons/Close';
 import { withStyles } from '@material-ui/styles'
 import styles from './styles/NavbarStyles'
 
@@ -28,7 +27,7 @@ class Navbar extends Component {
     }
     render() {
         const { level, changeLevel, showAllColors, classes } = this.props;
-        const { format } = this.state;
+        const { format,open } = this.state;
         return (
             <header style={{zIndex:'2'}} className={classes.Navbar}>
                 <div className={classes.logo}>
@@ -60,7 +59,7 @@ class Navbar extends Component {
                 </div>
                 <Snackbar
                     anchorOrigin={{ vertical: 'bottom', horizontal: 'left' }}
-                    open={this.state.open}
+                    open={open}
                     autoHideDuration={3000}
                     message={<span id="message-id">Format Changed To {format.toUpperCase()}</span>}
                     ContentProps={{

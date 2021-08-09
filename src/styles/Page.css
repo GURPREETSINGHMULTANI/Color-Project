@@ -27,3 +27,10 @@
     opacity: 1;
     z-index: -1;
 }
+
+.div1{
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
