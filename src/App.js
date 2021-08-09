@@ -43,6 +43,7 @@ class App extends PureComponent {
               <Route exact path="/" render={(routeProps) => <div className="div1"><PaletteList deletePalette={this.deletePalette} palettes={palettes} {...routeProps} /></div>} />
               <Route exact path="/palette/:id" render={(routeProps) => <div className="div1"><Palette palette={generatePalette(this.findPalette(routeProps.match.params.id))} /></div>} />
               <Route path="/palette/:paletteId/:colorId" render={(routeProps) => <div className="div1"><SingleColorPalette colorId={routeProps.match.params.colorId} palette={generatePalette(this.findPalette(routeProps.match.params.paletteId))} /></div>} />
+              <Route exact path="" render={(routeProps) => <div className="div1"><PaletteList deletePalette={this.deletePalette} palettes={palettes} {...routeProps} /></div>} />
             </Switch >
           </CSSTransition>
         </TransitionGroup>
