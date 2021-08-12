@@ -64,6 +64,10 @@ React Colors is a simple application that provides users a simple interface to c
 - React 
 - React Router 
 - React-Sortable-HOC
+- React-Material-Yi-Form-Validator
+- React-Transition-Group
+- React-Copy-to-Clipboard
+- RC-Slider
 - React-Color
 - Material-UI
 - Node
@@ -116,7 +120,7 @@ In the beginning, I started the process by using the create-react-app boilerplat
 React Colors is also the first application I used with git and github. I learned how to use git and github and the importance of commiting after adding each new feature. When troubleshooting or adding new features, there were multiple instances where I had to revert back to older commits or use rebase to delete commits. This allowed me more freedom when testing out new features because even if I made mistakes, I could reset my application back to an older version.
 
 
-At the end of the day, the technologies implemented in this project are React, React-Router 5.2, Emoji-Mart, Chroma Js, Material-UI, React-Sortable-HOC, React-Color and a significant amount of VanillaJS, JSX, JSS, and CSS. I chose to use the create-react-app boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the next iteration I plan on handrolling a webpack.config.js file to more fully understand the build process.
+At the end of the day, the technologies implemented in this project are React, React-Router 5.2, Emoji-Mart, Chroma Js, Material-UI, React-Sortable-HOC, React-Transition-Group and a significant amount of VanillaJS, JSX, JSS, and CSS. I chose to use the create-react-app boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the next iteration I plan on handrolling a webpack.config.js file to more fully understand the build process.
 
 ## License
 
