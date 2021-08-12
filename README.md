@@ -9,13 +9,13 @@ An application used to create, test, and store color palettes online.
 
 ### Table of Contents
 
-- [Description](##description)
-- [Illustrations](##illustrations)
-- [Technologies](##technologies)
-- [Installation and Setup Instructions](##installation-and-setup-instructions)
-- [Reflection](##reflection)
-- [License](##license)
-- [Author Info](##author-info)
+- [Description](#description)
+- [Illustrations](#illustrations)
+- [Technologies](#technologies)
+- [Installation and Setup Instructions](#installation-and-setup-instructions)
+- [Reflection](#reflection)
+- [License](#license)
+- [Author Info](#author-info)
 
 ---
 
