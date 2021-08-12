@@ -8,7 +8,7 @@ import IconButton from '@material-ui/core/IconButton';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import Button from '@material-ui/core/Button'
 import DraggableColorList from './DraggableColorList';
-import { arrayMove } from 'array-move';
+import arrayMoveImmutable from 'array-move';
 import PaletteFormNav from './PaletteFormNav';
 import ColorPickerForm from './ColorPickerForm';
 import styles from './styles/NewPaletteFormStyles';
@@ -56,7 +56,7 @@ class NewPaletteForm extends Component {
     }
     onSortEnd = ({ oldIndex, newIndex }) => {
         this.setState(({ colors }) => ({
-            colors: arrayMove(colors, oldIndex, newIndex),
+            colors: arrayMoveImmutable(colors, oldIndex, newIndex)
         }));
     };
     clearColors() {
