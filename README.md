@@ -1,70 +1,148 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Colors
 
-## Available Scripts
+![App Preview](https://raw.githubusercontent.com/GURPREETSINGHMULTANI/Color-Project/master/images/gurpreetsinghmultani.github.io_Color-Project_%20(1).png)
 
-In the project directory, you can run:
+An application used to create, test, and store color palettes online.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Table of Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Description](##description)
+- [Illustrations](##illustrations)
+- [Technologies](##technologies)
+- [Installation and Setup Instructions](##installation-and-setup-instructions)
+- [Reflection](##reflection)
+- [License](##license)
+- [Author Info](##author-info)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Description
 
-### `npm run build`
+React Colors is a simple application that provides users a simple interface to create beautiful color palettes. After creating the original color palette of 20 colors, it allows users to try out different shades of the some color. This allows the user to easily test new colors and see which ones fit nicely into the palette. Once the color palette is made, the user can copy the color codes to use for their project. React Colors also comes with the functionality to change the color format to Hex, RGB, and RGBA to adjust to the users needs. Altogether, React Colors is an easy-to-use color picker that is user friendly and can be used with any project to create nice-looking color combinations.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Illustrations
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Homepage
+![Homepage](https://raw.githubusercontent.com/GURPREETSINGHMULTANI/Color-Project/master/images/gurpreetsinghmultani.github.io_Color-Project_%20(1).png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Viewing a Saved Color Palette
 
-### `npm run eject`
+![Viewing a Saved Color Palette](https://raw.githubusercontent.com/GURPREETSINGHMULTANI/Color-Project/master/images/gurpreetsinghmultani.github.io_Color-Project_%20(2).png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Testing Different Color shades
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Testing Different Color Shades](https://raw.githubusercontent.com/GURPREETSINGHMULTANI/Color-Project/master/images/gurpreetsinghmultani.github.io_Color-Project_%20(3).png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Copying New Colors
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Copying New Colors](https://github.com/GURPREETSINGHMULTANI/Color-Project/blob/master/images/gurpreetsinghmultani.github.io_Color-Project_%20(10).png?raw=true)
 
-## Learn More
+#### Changing Color Formats
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Changing Color Formats](https://github.com/GURPREETSINGHMULTANI/Color-Project/blob/master/images/gurpreetsinghmultani.github.io_Color-Project_%20(4).png?raw=true)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Testing Different Shades of a Single Color
 
-### Code Splitting
+![Testing Different Shades of A Single Color](https://github.com/GURPREETSINGHMULTANI/Color-Project/blob/master/images/gurpreetsinghmultani.github.io_Color-Project_%20(11).png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Creating a New Color Palette
 
-### Analyzing the Bundle Size
+![Creating a New Color Palette](https://github.com/GURPREETSINGHMULTANI/Color-Project/blob/master/images/gurpreetsinghmultani.github.io_Color-Project_%20(12).png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### Choosing an Emoji for the Color Palette
 
-### Making a Progressive Web App
+![Choosing an Emoji for the Color Palette](https://github.com/GURPREETSINGHMULTANI/Color-Project/blob/master/images/gurpreetsinghmultani.github.io_Color-Project_%20(13).png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Technologies
 
-### Advanced Configuration
+- HTML
+- CSS
+- React
+- React Router
+- React-Sortable-HOC
+- React-Color
+- Material-UI
+- Node
+- NPM
+- Webpack
+- Javascript
+- Git & GitHub
+- JSS
+- JSX
+- Chroma JS
+- Emoji-Mart
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Installation and Setup Instructions
 
-### Deployment
+#### To Install It Locally	
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-### `npm run build` fails to minify
+Installation:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`npm install`   
+
+To Start Server:
+
+`npm start`  
+
+To Visit App:
+
+`localhost:3000/`  
+
+#### To Visit the Deployed Version on GitHub Pages
+
+Use Link Below:
+
+`gurpreetsinghmultani.github.io/Color-Project/`
+
+## Reflection
+
+React Colors was a 6 week long project that I build to apply my react skills that I learned from doing a Udemy course online. The goal of the project was to use technologies learned from the course, and create a fully functioning application.
+
+
+The project led me through the process of taking a simple idea, and turning it into an app. At first, I struggled to find a starting point from which to start building my application, however, I learned how to take a complex idea and break it up into little pieces. This way, I could focus on implementing one feature at a time, while also not get overwhelmed by the scale of the project.
+
+
+Throughout the creation process, I learned how to find new technologies to fit your needs and use the provided documentation to use the technology. For example, when using Material-UI or Chroma JS, two technologies I hadn't used before, I learned how to navigate the documentation to find what I need.
+
+
+I started this process by using the create-react-app boilerplate, then adding react-router-5.2. One of the main challenges I ran into was during the end of the creation process. Due to there being many files and complex logic connected between various files, I was constantly lost and it became harder to add new logic without breaking the application. Here, I learned new techniques to troubleshoot to understand how all the files are connected. This way, it became easier for me to implement new features when the size of the application grew.
+
+
+React Colors was also the first application I used with git and github. I learned how to use git and github and the importance of commiting after adding each new feature. When troubleshooting or adding new features, there were multiple instances where I had to revert back to an older commits; this allowed me more freedom when testing out new features as I could easily reset back to an older commit.
+
+At the end of the day, the technologies implemented in this project are React, React-Router 5.2, Emoji-Mart, Chroma Js, Material-UI, React-Sortable-HOC, React-Color and a significant amount of VanillaJS, JSX, JSS, and CSS. I chose to use the create-react-app boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the next iteration I plan on handrolling a webpack.config.js file to more fully understand the build process.
+
+## License
+
+MIT License
+
+Copyright (c) [2021] [Gurpreet Singh Multani]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Author Info
+
+- LinkedIn - [Gurpreet Singh Multani](https://ca.linkedin.com/in/gurpreet-singh-multani-0a277a203?trk=people-guest_people_search-card)
+
+[Back To The Top](#react-colors)
