@@ -81,6 +81,12 @@ React Colors is a simple application that provides users a simple interface to c
 
 ## Installation and Setup Instructions
 
+#### To Visit the Deployed Version on GitHub Pages
+
+Use Link Below:
+
+`https://gurpreetsinghmultani.github.io/React-Colors-Project/`
+
 #### To Install It Locally	
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
@@ -96,12 +102,6 @@ To Start Server:
 To Visit App:
 
 `localhost:3000/`  
-
-#### To Visit the Deployed Version on GitHub Pages
-
-Use Link Below:
-
-`https://gurpreetsinghmultani.github.io/React-Colors-Project/`
 
 ## Reflection
 
