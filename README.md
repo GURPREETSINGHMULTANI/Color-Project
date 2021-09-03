@@ -101,7 +101,7 @@ To Visit App:
 
 Use Link Below:
 
-`gurpreetsinghmultani.github.io/Color-Project/`
+`https://gurpreetsinghmultani.github.io/React-Colors-Project/`
 
 ## Reflection
 
