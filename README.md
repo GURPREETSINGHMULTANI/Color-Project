@@ -64,7 +64,7 @@ React Colors is a simple application that provides users a simple interface to c
 - React 
 - React Router 
 - React-Sortable-HOC
-- React-Material-Ui-Form-Validator
+- React-Material-UI-Form-Validator
 - React-Transition-Group
 - React-Copy-to-Clipboard
 - RC-Slider
